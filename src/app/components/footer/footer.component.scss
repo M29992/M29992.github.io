@@ -1,0 +1,41 @@
+@import '../../../styles.scss';
+
+.footer{
+    color: $dark-text-color;
+    text-align: center;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: $dark-card-color;
+    width: 100px;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+a {
+    font-size: 2em;
+    cursor: pointer;
+    margin-right: 10px;
+    padding-left: 10px;
+    transition: background-position 0.5s ease-in-out; /* Transition on background-position */
+    background: linear-gradient(to bottom, $dark-card-color 0%, $dark-card-color 50%, $card-color 50%, $card-color 100%);
+    background-size: 100% 200%;
+    background-position: top;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent; /* Keep the text color transparent to reveal the gradient */
+}
+
+a:hover {
+    background-position: bottom; /* Move the background position to create the transition effect */
+}
+
+.socials {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}

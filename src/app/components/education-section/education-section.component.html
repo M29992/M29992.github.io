@@ -1,0 +1,12 @@
+<div class="education-section">
+    <div *ngFor="let anEducation of education">
+        <app-education
+            [educationStartDate]="anEducation.educationStartDate"
+            [educationGraduationDate]="anEducation.educationGraduationDate"
+            [educationLevel]="anEducation.educationLevel"
+            [educationFieldOfStudy]="anEducation.educationFieldOfStudy"
+            [educationInstitution]="anEducation.educationInstitution"
+            [educationGrade]="anEducation.educationGrade"
+            [educationTechnologies]="anEducation.educationTechnologies">
+        </app-education>
+    </div>

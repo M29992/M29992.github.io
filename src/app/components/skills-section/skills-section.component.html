@@ -1,0 +1,11 @@
+<div class="skills-section">
+    <div *ngFor="let aSkill of skills">
+      <app-skill 
+        [skillTitle]="aSkill.skillTitle"
+        [skillScore]="aSkill.skillScore"
+        [skillIcon]="aSkill.skillIcon"
+        [skillVerifiedDate]="aSkill.skillVerifiedDate">
+      </app-skill>
+    </div>
+  </div>
+  

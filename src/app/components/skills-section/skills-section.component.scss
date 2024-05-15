@@ -1,0 +1,18 @@
+@import '../../../styles.scss';
+
+.skills-section {
+    padding-left: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    background-color: $light-card-color;
+  }
+  
+  .skills-section > div {
+    flex: 0 1 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  

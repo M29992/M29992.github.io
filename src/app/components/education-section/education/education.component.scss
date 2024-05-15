@@ -1,0 +1,62 @@
+@import '../../../../styles.scss';
+
+.education {
+    display: flex;
+    height: 400px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .education:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .education-header {
+    width: 150px; /* Adjust width as needed */
+    background-color: $card-color; /* Background color for the header box */
+    color: $light-text-color;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .education-body {
+    flex: 1; /* Fill remaining space */
+    position: relative;
+    background-color: $light-card-color; /* Background color for the body box */
+    color: $dark-text-color;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  .education-body ul {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .grade {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0px;
+padding: 10px;
+    text-align: right;
+    color: $secondary-background-color;
+    font: 2em $font-primary;
+  }
+
+  h1 {
+    font: 1.5em $font-primary;
+    color: $light-text-color;
+  }
+
+  h2 {
+    font: 1.7em $font-primary;
+    color: $dark-text-color;
+  }
+
+  h3 {
+    font: 1.3em $font-primary;
+    color: $dark-text-color;
+  }

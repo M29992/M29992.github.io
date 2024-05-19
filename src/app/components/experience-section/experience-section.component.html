@@ -1,0 +1,12 @@
+<div class="experience-section" id="experience">
+    <div *ngFor="let anExperience of experience">
+      <app-experience
+        [experienceStartDate]="anExperience.startDate"
+        [experienceEndDate]="anExperience.endDate"
+        [experiencePosition]="anExperience.title"
+        [experienceCompany]="anExperience.company"
+        [experienceResponsibilies]="anExperience.responsibilities"
+        [experienceTechnologies]="anExperience.technologies">
+      </app-experience>
+    </div>
+  </div>

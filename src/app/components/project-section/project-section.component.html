@@ -1,0 +1,12 @@
+<div class="project-section" id="projects">
+    <div *ngFor="let project of projects">
+        <app-project
+            [title]="project.title"
+            [imageUrl]="project.imageUrl"
+            [technologies]="project.technologies"
+            [description]="project.description"
+            [codeUrl]="project.codeUrl"
+            [demoUrl]="project.demoUrl">
+        </app-project>
+    </div>
+</div>

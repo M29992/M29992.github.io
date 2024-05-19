@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { SlickCarouselModule } from 'ngx-slick-carousel';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -10,6 +10,14 @@ import { EducationSectionComponent } from './components/education-section/educat
 import { EducationComponent } from './components/education-section/education/education.component';
 import { SkillsSectionComponent } from './components/skills-section/skills-section.component';
 import { SkillComponent } from './components/skills-section/skill/skill.component';
+import { ExperienceSectionComponent } from './components/experience-section/experience-section.component';
+import { ExperienceComponent } from './components/experience-section/experience/experience.component';
+import { ProjectSectionComponent } from './components/project-section/project-section.component';
+import { ProjectComponent } from './components/project-section/project/project.component';
+import { WelcomeSectionComponent } from './components/welcome-section/welcome-section.component';
+import { ProfileComponent } from './components/welcome-section/profile/profile.component';
+import { ShowcaseComponent } from './components/welcome-section/showcase/showcase.component';
+import { DataService } from './services/data.service';
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,14 +26,22 @@ import { SkillComponent } from './components/skills-section/skill/skill.componen
     EducationSectionComponent,
     EducationComponent,
     SkillsSectionComponent,
-    SkillComponent
+    SkillComponent,
+    ExperienceSectionComponent,
+    ExperienceComponent,
+    ProjectSectionComponent,
+    ProjectComponent,
+    WelcomeSectionComponent,
+    ProfileComponent,
+    ShowcaseComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    SlickCarouselModule
+    HttpClientModule,
+
   ],
-  providers: [],
+  providers: [DataService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

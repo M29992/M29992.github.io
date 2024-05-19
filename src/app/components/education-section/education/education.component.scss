@@ -4,6 +4,8 @@
     display: flex;
     height: 400px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10PX;
+    border: 1px solid #ccc;
   }
 
   .education:hover {
@@ -11,8 +13,8 @@
   }
   
   .education-header {
-    width: 150px; /* Adjust width as needed */
-    background-color: $card-color; /* Background color for the header box */
+    width: 150px;
+    background-color: $card-color;
     color: $light-text-color;
     display: flex;
     flex-direction: column;
@@ -21,18 +23,20 @@
   }
   
   .education-body {
-    flex: 1; /* Fill remaining space */
+    flex: 1; 
     position: relative;
-    background-color: $light-card-color; /* Background color for the body box */
+    background-color: $light-card-color;
     color: $dark-text-color;
     display: flex;
     flex-direction: column;
     padding: 20px;
   }
+
   
   .education-body ul {
-    padding: 0;
+    padding-left: 20px;
     margin: 0;
+    overflow: auto;
   }
   
   .grade {
@@ -49,14 +53,17 @@ padding: 10px;
   h1 {
     font: 1.5em $font-primary;
     color: $light-text-color;
+    margin: 0px;
   }
 
   h2 {
     font: 1.7em $font-primary;
     color: $dark-text-color;
+    margin-bottom: 0px;
   }
 
   h3 {
     font: 1.3em $font-primary;
     color: $dark-text-color;
+    margin-top: 0px;
   }

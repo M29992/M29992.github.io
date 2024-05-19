@@ -1,9 +1,9 @@
-<div class="skills-section">
+<div class="skills-section" id="skills">
     <div *ngFor="let aSkill of skills">
       <app-skill 
         [skillTitle]="aSkill.skillTitle"
         [skillScore]="aSkill.skillScore"
-        [skillIcon]="aSkill.skillIcon"
+        [skillIcon]="aSkill.skillIconUrl"
         [skillVerifiedDate]="aSkill.skillVerifiedDate">
       </app-skill>
     </div>

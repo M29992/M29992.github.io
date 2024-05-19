@@ -1,0 +1,99 @@
+@import '../../../../styles.scss';
+
+
+.experience-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto auto auto 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 10px;
+    background-color: white;
+    color: $dark-text-color;
+  }
+  
+  .div1 {
+    grid-area: 1 / 1 / 2 / 3;
+    display: flex;
+    align-items: baseline;
+  }
+  
+  .title {
+    margin: 0;
+  }
+  
+  .dates {
+    color: #888;
+    margin-left: 10px;
+  }
+  
+  .div2 {
+    grid-area: 2 / 1 / 3 / 3;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .company {
+    margin: 0;
+  }
+  
+  .div3 {
+    grid-area: 3 / 1 / 4 / 3;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .responsibilities ul {
+    padding-left: 20px;
+  }
+  
+  .responsibilities ul li {
+    margin-bottom: 5px;
+  }
+  
+  .div4 {
+    grid-area: 1 / 3 / 4 / 4;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start; // Align to the top
+  }
+  
+  .div4 h3 {
+    text-align: right !important;  // Right align the heading
+  }
+  
+  .tech-pills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end; // Right align the pills
+  }
+  
+  .tech-pill {
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 50px;
+    padding: 5px 10px;
+    margin: 5px 5px 0 0;
+    color: black;
+  }
+
+  .tech-pill:hover {
+    background-color: #e9e9e9;
+  }
+  
+  .show-more {
+    grid-area: 4 / 1 / 5 / 4;
+    display: block;
+    cursor: pointer;
+    text-align: center;
+    color: #007bff;
+    margin-top: 10px;
+  }
+  
+  .show-more:hover {
+    font-weight: bold;
+  }
+  

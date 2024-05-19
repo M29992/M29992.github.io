@@ -1,0 +1,34 @@
+<div class="project" #project (mousemove)="adjustBoxShadow($event)" (mouseleave)="resetBoxShadow()" (click)="showPopup()">
+  <div class="image-container">
+    <img src="{{ imageUrl }}" alt="{{ title }}" />
+  </div>
+  <div class="card-content">
+    <h3>{{ title }}</h3>
+    <p class="description">{{ description }}</p>
+    <div class="buttons">
+      <a href="{{ codeUrl }}" target="_blank">Code</a>
+      <a href="{{ demoUrl }}" target="_blank">Demo</a>
+    </div>
+  </div>
+</div>
+
+<div class="popup" *ngIf="isPopupVisible">
+  <div class="popup-overlay" (click)="onOverlayClick($event)"></div>
+  <div class="popup-content">
+    <button class="close-btn" (click)="hidePopup()">×</button>
+    <div class="popup-body">
+      <img src="{{ imageUrl }}" alt="{{ title }}" class="popup-image" />
+      <div class="popup-text">
+        <h2>{{ title }}</h2>
+        <p class="technologies">
+          <span *ngFor="let technology of technologies" class="skill-pill">{{ technology }}</span>
+        </p>
+        <p class="description">{{ description }}</p>
+        <div class="buttons">
+          <a href="{{ codeUrl }}" target="_blank">Code</a>
+          <a href="{{ demoUrl }}" target="_blank">Demo</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

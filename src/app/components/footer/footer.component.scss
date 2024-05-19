@@ -3,6 +3,7 @@
 .footer{
     color: $dark-text-color;
     text-align: center;
+    padding-left: 80px;
 }
 
 hr {
@@ -20,17 +21,17 @@ a {
     cursor: pointer;
     margin-right: 10px;
     padding-left: 10px;
-    transition: background-position 0.5s ease-in-out; /* Transition on background-position */
+    transition: background-position 0.5s ease-in-out;
     background: linear-gradient(to bottom, $dark-card-color 0%, $dark-card-color 50%, $card-color 50%, $card-color 100%);
     background-size: 100% 200%;
     background-position: top;
     -webkit-background-clip: text;
     background-clip: text;
-    color: transparent; /* Keep the text color transparent to reveal the gradient */
+    color: transparent; 
 }
 
 a:hover {
-    background-position: bottom; /* Move the background position to create the transition effect */
+    background-position: bottom; 
 }
 
 .socials {
@@ -38,4 +39,5 @@ a:hover {
     display: flex;
     justify-content: center;
     margin: 0;
+    padding: 0;
 }

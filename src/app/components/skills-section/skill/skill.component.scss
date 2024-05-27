@@ -14,7 +14,7 @@
     max-height: 200px;
     // background-color: $card-color;
     background-color: $light-card-color;
-    border-top: 10px solid $secondary-color;
+    border-top: 10px solid $dark-text-color;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     padding: 10px;
 }
@@ -34,10 +34,11 @@
 }
 
 h1, p{
-color: $font-primary-color;
+color: $light-text-color;
 }
 
 h1{
+    font-size: $font-size-h2;
     margin-bottom: 0px;
     margin-top: 0px;
 }

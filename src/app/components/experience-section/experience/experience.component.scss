@@ -8,10 +8,10 @@
     grid-column-gap: 0px;
     grid-row-gap: 0px;
     padding: 20px;
-    border: 1px solid #ddd;
+    border: 1px solid $dark-border-color;
     border-radius: 8px;
     margin: 10px;
-    background-color: white;
+    background-color: $white-color;
     color: $dark-text-color;
   }
   
@@ -26,7 +26,7 @@
   }
   
   .dates {
-    color: #888;
+    color: $grey-text-color;
     margin-left: 10px;
   }
   
@@ -58,30 +58,31 @@
     grid-area: 1 / 3 / 4 / 4;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: flex-start; // Align to the top
+    justify-content: flex-start;
   }
   
   .div4 h3 {
-    text-align: right !important;  // Right align the heading
+    text-align: right !important; 
   }
   
   .tech-pills-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-end; // Right align the pills
+    justify-content: flex-end; 
   }
   
   .tech-pill {
-    background-color: #f0f0f0;
-    border: 1px solid #ddd;
+    background-color: $pill-color;
+    border: 1px solid $dark-border-color;
     border-radius: 50px;
     padding: 5px 10px;
     margin: 5px 5px 0 0;
-    color: black;
+    color: $dark-text-color;
+    font-size: $font-size-body;
   }
 
   .tech-pill:hover {
-    background-color: #e9e9e9;
+    background-color: $pill-hover-color;
   }
   
   .show-more {
@@ -89,11 +90,22 @@
     display: block;
     cursor: pointer;
     text-align: center;
-    color: #007bff;
+    color: $highlight-color;
     margin-top: 10px;
   }
   
   .show-more:hover {
     font-weight: bold;
   }
+
+  h1 {
+    font-size: $font-size-h3;
+  }
+
+  h2, h3{
+    font-size: $font-size-h4;
+  }
   
+  p, li {
+    font-size: $font-size-body;
+  }

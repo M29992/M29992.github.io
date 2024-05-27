@@ -28,7 +28,7 @@ export class SkillComponent implements OnChanges {
     if (this.skillScore >= 0 && this.skillScore < 100) {
       this.skillColor = 'lightsalmon'; // Novice
     } else if (this.skillScore >= 100 && this.skillScore < 150) {
-      this.skillColor = 'lightgreen'; // Emerging
+      this.skillColor = 'yellowgreen'; // Emerging
     } else if (this.skillScore >= 150 && this.skillScore < 200) {
       this.skillColor = 'limegreen'; // Average
     } else if (this.skillScore >= 200 && this.skillScore < 250) {

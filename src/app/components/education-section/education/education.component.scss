@@ -2,7 +2,7 @@
 .education {
   display: flex;
   margin-bottom: 10px;
-  border: 1px solid #ccc;
+  border: 1px solid $border-color;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   border-radius: 16px;
 }
@@ -22,6 +22,10 @@
   border-radius: 16px 0 0 16px;
 }
 
+.education-header h1{
+  padding-bottom: 10px;
+}
+
 .education-body {
   flex: 1;
   position: relative;
@@ -33,6 +37,12 @@
   border-radius: 0  16px 16px 0;
 }
 
+.institution {
+  font-size: 1.5em;
+  color: $grey-text-color;
+  margin: 0;
+}
+
 .grade {
   position: absolute;
   top: 20px;
@@ -40,8 +50,8 @@
   margin: 0;
   padding: 10px;
   text-align: right;
-  color: $secondary-background-color;
-  font-size: 2em;
+  color: $dark-text-color;
+  font-size: $font-size-h3;
   font-family: $font-primary;
 }
 
@@ -55,7 +65,7 @@
 }
 
 .projects ul {
-  padding-left: 20px;
+  padding-left: 10px;
   margin: 0;
 }
 
@@ -66,11 +76,15 @@
   text-align: right;
 }
 
+.technologies h3{
+  font-size: $font-size-h4;
+}
+
 .technology-icons {
   display: flex;
   flex-wrap: wrap;
   justify-content: right;
-  gap: 10px;
+  gap: 5px;
 }
 
 .technology-icons img {
@@ -93,19 +107,25 @@
 }
 
 h1 {
-  font-size: 1.5em;
+  font-size: $font-size-h3;
   color: $light-text-color;
   margin: 0;
 }
 
 h2 {
-  font-size: 1.7em;
+  font-size:$font-size-h2;
   color: $dark-text-color;
   margin-bottom: 0;
 }
 
-h3 {
-  font-size: 1.3em;
+
+p, li{
+  font-size: $font-size-body;
   color: $dark-text-color;
-  margin-top: 0;
+  margin: 15px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0px;
 }

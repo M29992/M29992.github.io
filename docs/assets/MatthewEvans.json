@@ -1,0 +1,295 @@
+{
+  "name": "Matthew Evans",
+  "title": "Full Stack Software Engineer",
+  "imageUrl": "https://avatars.githubusercontent.com/u/30472441?v=4",
+  "careerObjective": "Results-driven Software Engineer with 8+ years of experience in enterprise safety-critical software development across diverse sectors including Healthcare, Military, Government, Aviation, and Education.",
+  "workExperience": [
+    {
+      "title": "Full Stack Software Engineer / Team Lead",
+      "company": "ParentPay Ltd",
+      "startDate": "2021",
+      "endDate": "Present",
+      "responsibilities": [
+        "Developed and maintained applications using C#, JavaScript, Angular, Bootstrap, and CSS within an Agile environment.",
+        "Designed and implemented new microservices and APIs, adhering to SOLID principles.",
+        "Acted as a Scrum Master, ensuring adherence to Agile principles and facilitating sprint ceremonies.",
+        "Managed deployment processes using TeamCity and Octopus Deploy, ensuring minimal downtime.",
+        "Maintained and improved automation for build and deploy process.",
+        "Built and refined new SQL stored procedures and queries within Microsoft SQL Server.",
+        "Conducted and received peer reviews for code quality assurance across multiple scrum teams.",
+        "Collaborated with cross-functional teams to prioritize support tasks and streamline development workflows.",
+        "Led a cross-functional software development team in Agile practices, including sprint planning, backlog planning, and daily stand-ups.",
+        "Facilitated effective communication and collaboration among team members to ensure alignment with project goals and priorities.",
+        "Collaborated with product owners, managers, and stakeholders to prioritize tasks and address project risks.",
+        "Created, maintained, and updated all documentation."
+      ],
+      "technologies": [
+        "C#",
+        "JavaScript",
+        "Angular",
+        "Bootstrap",
+        "CSS",
+        "TeamCity",
+        "Octopus",
+        "SQL",
+        "Microsoft SQL Server",
+        ".NET Core",
+        "xUnit"
+      ]
+    },
+    {
+      "title": "Software Engineer in Test",
+      "company": "risual Ltd",
+      "startDate": "2018",
+      "endDate": "2021",
+      "responsibilities": [
+        "Team leading and mentoring five apprentices in development and DevOps using C# best practices.",
+        "Head of test repositories.",
+        "Facilitated agile ceremonies including daily stand-ups, sprint reviews, retrospectives, and 1-to-1 meetings.",
+        "Developed ASP.NET Core web services and middleware for SOAP and RESTful API services.",
+        "Created and maintained Azure DevOps Build and release pipelines for continuous integration and continuous deployment.",
+        "Integrated automation test cases and unit tests into release pipelines.",
+        "Developed logic apps and power automate (flow) scripts with access through API management.",
+        "Peer reviewed junior software developers.",
+        "Automated testing using Selenium (C#), xUnit, Postman, and SoapUI.",
+        "Met with customers and system users to understand the scope of projects.",
+        "Created Test plans, Reports, suites, and defect Reports, estimating resources needed.",
+        "Provided technical assistance and guidance for Docker, Linux, and SQL."
+      ],
+      "technologies": [
+        "C#",
+        ".NET Core",
+        "SOAP",
+        "RESTful API",
+        "Azure DevOps",
+        "Selenium",
+        "xUnit",
+        "Postman",
+        "Docker",
+        "Linux",
+        "SQL",
+        "Power BI",
+        "Dynamics 365",
+        "Microsoft Entra ID"
+      ]
+    },
+    {
+      "title": "QA Engineer",
+      "company": "Healthcare at Home Ltd",
+      "startDate": "2014",
+      "endDate": "2018",
+      "responsibilities": [
+        "Trained and mentored members of the testing team.",
+        "Estimated testing resources needed across multiple projects.",
+        "Analyzed and reviewed technical and non-technical documentation.",
+        "Created and documented test plans, test scenarios, test cases, and test reports.",
+        "Created and set up automation test software and suites using Selenium, Ranorex, and NUnit.",
+        "Produced standard operating procedures for automation testing.",
+        "Conducted data and database testing using SQL."
+      ],
+      "technologies": [
+        "Selenium",
+        "Ranorex",
+        "NUnit",
+        "SQL",
+        "Microsoft SQL Server",
+        "C#",
+        "Postman"
+      ]
+    },
+    {
+      "title": "Development Support Specialist",
+      "company": "Healthcare at Home Ltd",
+      "startDate": "2008",
+      "endDate": "2010",
+      "responsibilities": [
+        "Provided technical support to development team members, including engineers, testers, and application operations.",
+        "Set up and maintained a development environment, ensuring availability and reliability for team members.",
+        "Collaborated with engineers to troubleshoot hardware and software issues.",
+        "Executed manual test cases, assisted in user acceptance testing, and maintained test environments.",
+        "Worked with application operations to deploy and maintain software applications in production environments.",
+        "Participated in cross-functional team meetings and contributed to continuous improvement initiatives."
+      ],
+      "technologies": [
+        "Microsoft Test Manager",
+        "Microsoft SQL Server",
+        "Landesk",
+        "Active Directory",
+        "C#",
+        "Microsoft SQL Server"
+      ]
+    }
+  ],
+  "educationAndQualifications": [
+    {
+      "level": "BSc",
+      "fieldOfStudy": "Computer Science",
+      "institution": "Open University",
+      "startDate": "2015",
+      "endDate": "2021",
+      "grade": "GPA 4.0",
+      "activities": [
+        "Created an entertainment finding website utilizing API endpoints to guide users to content across platforms like Netflix, Disney+, and others.",
+        "Developed a mobile application for both Android and iOS platforms, facilitating ride-sharing services with user-friendly interfaces, real-time matching, and ratings and reviews.", 
+        "Crafted a cloud-based e-commerce website enabling users to book meeting rooms and rent equipment seamlessly.",
+        "Designed a Jupyter notebook capable of analyzing and visualizing current trends in environmental factors and economic growth.",
+       "Crafted a Java-based application for maintaining comprehensive records of frogs in ponds, including their names and current feeding schedules.",
+      "Led and assisted a team project focused on intricate data algorithms and advanced mathematical concepts."],
+      "technologies": [
+        { "name": "C#", "iconUrl": "../../assets/Images/Skills/c-sharp.svg" },
+        { "name": "SQL", "iconUrl": "../../assets/Images/Skills/mysql.svg" },
+        { "name": "Javascript", "iconUrl": "../../assets/Images/Skills/javascript.svg" },
+        { "name": "Git", "iconUrl":"../../assets/Images/Skills/git.svg"},
+        { "name": "noSQL", "iconUrl": "../../assets/Images/Skills/mongodb.svg" },
+        { "name": "Python", "iconUrl": "../../assets/Images/Skills/python.svg" },
+        { "name": "Java", "iconUrl": "../../assets/Images/Skills/java.svg" },
+        { "name": "Cordova", "iconUrl": "../../assets/Images/Skills/cordova.svg" },
+        { "name": "jupyter notebook", "iconUrl": "../../assets/Images/Skills/jupyter.svg" },
+        { "name": "Google cloud", "iconUrl": "../../assets/Images/Skills/google-cloud.svg" },
+        { "name": "oneNote", "iconUrl": "../../assets/Images/Skills/onenote.svg"}
+
+
+      ]
+    },
+    {
+      "level": "Foundation Level Certified",
+      "fieldOfStudy": "ISTQB Software Testing",
+      "institution": "BCS - The Chartered Institute for IT",
+      "startDate": "2018",
+      "endDate": "2018",
+      "grade": "Pass",
+      "activities": [
+        "Provided a foundational understanding of software testing principles, processes, and techniques.", 
+        "Covered various testing levels (e.g., unit testing, integration testing) and types (e.g., functional testing, non-functional testing).", 
+        "Included topics such as test management, test tools, and test automation."
+      ],
+      "technologies": [
+      ]
+    },
+    {
+      "level": "BSc",
+      "fieldOfStudy": "Computer Science",
+      "institution": "University of Nottingham",
+      "startDate": "2012",
+      "endDate": "2014",
+      "grade": "GPA 4.0",
+      "activities": ["Collaborated within a team to develop a Japanese learning application featuring handwriting recognition capabilities.", 
+      "Developed a Python multiplayer game integrating a high score system for competitive gaming experiences.", 
+      "Developed a visual airport representation tool in Java, offering detailed flight information and real-time positioning for improved navigation and monitoring.",
+    "Engineered a neural network AI capable of playing chess, checkers, and Tower of Hanoi, demonstrating versatile problem-solving abilities across diverse gaming domains."],
+      "technologies": [
+        { "name": "Java", "iconUrl": "../../assets/Images/Skills/java.svg" },
+        { "name": "Python", "iconUrl": "../../assets/Images/Skills/python.svg" },
+        { "name": "C++", "iconUrl": "../../assets/Images/Skills/cpp.svg" },
+        { "name": "Haskell", "iconUrl": "../../assets/Images/Skills/haskell.svg" },
+        { "name": "SQL", "iconUrl": "../../assets/Images/Skills/mysql.svg" },
+        { "name": "Git", "iconUrl":"../../assets/Images/Skills/git.svg"},
+        { "name": "SVN", "iconUrl": "../../assets/Images/Skills/svn.svg" },
+        { "name": "Javascript", "iconUrl": "../../assets/Images/Skills/javascript.svg" },
+        { "name": "Unix", "iconUrl": "../../assets/Images/Skills/linux.svg" }
+      ]
+    },
+    {
+      "level": "BTEC National Diploma Level 3",
+      "fieldOfStudy": "Software Development",
+      "institution": "Derby College",
+      "startDate": "2010",
+      "endDate": "2012",
+      "grade": "GPA 4.0",
+      "activities": [
+        "Developed a scientific calculator utilizing both C++ for backend functionality and Visual Basic (VB) for the user interface, showcasing proficiency in multiple programming languages and integration techniques.", 
+        "Designed a restaurant website with separate admin functionality and online booking support, providing seamless management and enhanced user experience for both customers and staff.",
+         "Developed a Java-based system optimized for PDA devices and touchscreens in restaurant settings, enabling servers to efficiently place orders and seamlessly transmit them to the kitchen for streamlined service."],
+      "technologies": [
+        { "name": "C#", "iconUrl": "../../assets/Images/Skills/c-sharp.svg" },
+        { "name": "SQL", "iconUrl": "../../assets/Images/Skills/mysql.svg" },
+        { "name": "Java", "iconUrl": "../../assets/Images/Skills/java.svg" },
+        { "name": "C++", "iconUrl": "../../assets/Images/Skills/cpp.svg" },
+        { "name": "Javascript", "iconUrl": "../../assets/Images/Skills/javascript.svg" },
+        { "name": "PHP", "iconUrl": "../../assets/Images/Skills/php.svg" },
+        { "name": "CSS", "iconUrl": "../../assets/Images/Skills/css.svg" },
+        { "name": "HTML", "iconUrl": "../../assets/Images/Skills/html.svg" }
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "skillTitle": "C#",
+      "skillScore": "166",
+      "skillIconUrl": "../../assets/Images/Skills/c-sharp.svg",
+      "verifiedDate": "2023-08-21"
+    },
+    {
+      "skillTitle": "Git",
+      "skillScore": "156",
+      "skillIconUrl": "../../assets/Images/Skills/git.svg",
+      "verifiedDate": "2021-01-12"
+    },
+    {
+      "skillTitle": "Scrum",
+      "skillScore": "136",
+      "skillIconUrl": "../../assets/Images/Skills/scrum.svg",
+      "verifiedDate": "2023-05-01"
+    },
+    {
+      "skillTitle": "MySQL",
+      "skillScore": "110",
+      "skillIconUrl": "../../assets/Images/Skills/mysql.svg",
+      "verifiedDate": "2019-07-01"
+    },
+    {
+      "skillTitle": "Angular",
+      "skillScore": "150",
+      "skillIconUrl": "../../assets/Images/Skills/angular.svg",
+      "verifiedDate": "2024-04-02"
+    },
+     {
+      "skillTitle": "TypeScript",
+      "skillScore": "155",
+      "skillIconUrl": "../../assets/Images/Skills/typescript.svg",
+      "verifiedDate": "2024-04-01"
+    }
+  ],
+  "projects": [
+    {
+      "title": "Portfolio Website",
+      "description": "Easy to use and customizable portfolio website template. Built with native Css, JavaScript, and HTML. No frameworks or libraries used.",
+      "demoUrl": "https://m29992.github.io/basic-portfolio-template/",
+      "codeUrl": "http://github.com/mattie/portfolio-template",
+      "imageUrl": "../../assets/Images/Projects/mattieio.png",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ]
+    },
+    {
+      "title": "Wedding site",
+      "description": "Custom-built wedding website with all relevant wedding details: event info, schedule, RSVP, travel tips, and registry links.",
+      "demoUrl": "http://mattie.io/wedding",
+      "codeUrl": "https://github.com/M29992/wedding",
+      "imageUrl": "../../assets/Images/Projects/wedding.png",
+      "technologies": [
+        "Angular",
+        "JavaScript",
+        "CSS",
+        "HTML",
+        "Uber API",
+        "Microsoft forms"
+      ]
+    },
+    {
+      "title": "E-Commerce store",
+      "description": "Built a scalable e-commerce platform with ASP.NET Core and Angular, featuring user authentication, product management, and payment integration.",
+      "demoUrl": "http://example.com/demo/ecommerce-platform",
+      "codeUrl": "http://github.com/mattie/ecommerce-platform",
+      "imageUrl": "../../assets/Images/Projects/comingSoon.png",
+      "technologies": [
+        "ASP.NET Core",
+        "Angular",
+        "SQL Server",
+        "Stripe API"
+      ]
+    }
+  ]
+}

@@ -5,7 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "build prod": "ng build --deploy-url /Mattie-Angular/ --base-href /Mattie-Angular/",
+    "build prod": "ng build --deploy-url  --base-href ",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },

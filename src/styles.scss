@@ -42,9 +42,12 @@ $primary-background-url: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/200
 
 /* defaults */
 html, body { 
-    height: 100%; 
     scroll-behavior: smooth;
+}
+
+body {
     margin: 0; 
+    padding: 0;
     background-color: $primary-background-color;
 }
 

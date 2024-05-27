@@ -129,3 +129,18 @@ ul {
   list-style-type: none;
   padding: 0px;
 }
+
+@media (max-width: 768px) {
+  .education {
+    display: block;
+  }
+
+  .education-header {
+    width: auto;
+    border-radius: 16px 16px 0 0;
+  }
+
+  .education-body {
+    border-radius: 0 0 16px 16px;
+  }
+  }

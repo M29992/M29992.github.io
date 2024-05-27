@@ -15,3 +15,8 @@
     align-items: center;
   }
   
+  @media (max-width: 768px) {
+    .skills-section {
+      padding-left: 0;
+    }
+}

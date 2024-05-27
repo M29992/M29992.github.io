@@ -4,3 +4,9 @@
     color: $dark-text-color;
     font-family: $font-primary;
 }
+
+@media (max-width: 768px) {
+    app-nav-rail{
+        display: none;
+    }
+}

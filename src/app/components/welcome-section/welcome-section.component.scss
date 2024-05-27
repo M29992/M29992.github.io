@@ -11,12 +11,13 @@
     height: auto;
     padding-bottom: 30px;
     padding-top: 5px;
+    padding-right: 10px;
     gap: 20px;
     display: flex;
     align-items: stretch;
 }
 
-app-profile{
+app-profile {
     flex: 0 0 300px;
     box-sizing: border-box; 
     display: flex; 
@@ -24,8 +25,26 @@ app-profile{
 }
 
 app-showcase {
-    flex:1;
+    flex: 1;
     box-sizing: border-box; 
     display: flex; 
     flex-direction: column; 
+}
+
+@media (max-width: 768px) {
+    .welcome-section {
+        flex-direction: column;
+        margin-left: 0;
+        padding: 10px;
+    }
+
+    app-profile {
+        order: 1; 
+        flex-basis: 100%;
+    }
+
+    app-showcase {
+        order: 2;
+        flex-basis: 100%;
+    }
 }

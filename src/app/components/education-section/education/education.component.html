@@ -1,14 +1,31 @@
 <div class="education">
     <div class="education-header">
-        <h1>{{ educationStartDate }} - {{ educationGraduationDate }}</h1>
-        <h1>{{ educationLevel }}</h1>
+      <h1>{{ educationStartDate | date: 'yyyy' }} - {{ educationGraduationDate | date: 'yyyy' }}</h1>
+      <h1>{{ educationLevel }}</h1>
     </div>
     <div class="education-body">
-        <h2>{{ educationFieldOfStudy }}</h2>
-        <h3>{{ educationInstitution }}</h3>
-        <h2 class="grade"> GPA: {{ educationGrade }}</h2>
-        <ul>
-            <li *ngFor="let technology of educationTechnologies">{{ technology }}</li>
-        </ul>
+      <h2>{{ educationFieldOfStudy }}</h2>
+      <h3>{{ educationInstitution }}</h3>
+      <h2 class="grade">{{ educationGrade }}</h2>
+      
+      <div class="content">
+        <div class="activities">
+          <h3>Activities</h3>
+          <ul>
+            <li *ngFor="let activities of educationActivities">{{ activities }}</li>
+          </ul>
+        </div>
+        
+        <div class="technologies" *ngIf="educationTechnologies.length > 1">
+          <h3>Technologies</h3>
+          <div class="technology-icons">
+            <img *ngFor="let technology of educationTechnologies"
+                 [src]="technology.iconUrl"
+                 [attr.alt]="technology.name"
+                 [attr.data-tooltip]="technology.name" />
+          </div>
+        </div>
+      </div>
     </div>
-</div>
+  </div>
+  

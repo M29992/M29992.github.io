@@ -1,69 +1,111 @@
 @import '../../../../styles.scss';
-
 .education {
-    display: flex;
-    height: 400px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    margin-bottom: 10PX;
-    border: 1px solid #ccc;
-  }
+  display: flex;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+}
 
-  .education:hover {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  .education-header {
-    width: 150px;
-    background-color: $card-color;
-    color: $light-text-color;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 20px;
-  }
-  
-  .education-body {
-    flex: 1; 
-    position: relative;
-    background-color: $light-card-color;
-    color: $dark-text-color;
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-  }
+.education:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
 
-  
-  .education-body ul {
-    padding-left: 20px;
-    margin: 0;
-    overflow: auto;
-  }
-  
-  .grade {
-    position: absolute;
-    top: 0;
-    right: 0;
-    margin: 0px;
-padding: 10px;
-    text-align: right;
-    color: $secondary-background-color;
-    font: 2em $font-primary;
-  }
+.education-header {
+  width: 150px;
+  background-color: $card-color;
+  color: $light-text-color;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 16px 0 0 16px;
+}
 
-  h1 {
-    font: 1.5em $font-primary;
-    color: $light-text-color;
-    margin: 0px;
-  }
+.education-body {
+  flex: 1;
+  position: relative;
+  background-color: $light-card-color;
+  color: $dark-text-color;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 0  16px 16px 0;
+}
 
-  h2 {
-    font: 1.7em $font-primary;
-    color: $dark-text-color;
-    margin-bottom: 0px;
-  }
+.grade {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  margin: 0;
+  padding: 10px;
+  text-align: right;
+  color: $secondary-background-color;
+  font-size: 2em;
+  font-family: $font-primary;
+}
 
-  h3 {
-    font: 1.3em $font-primary;
-    color: $dark-text-color;
-    margin-top: 0px;
-  }
+.content {
+  display: flex;
+  flex: 1;
+}
+
+.projects {
+  flex: 2;
+}
+
+.projects ul {
+  padding-left: 20px;
+  margin: 0;
+}
+
+.technologies {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+
+.technology-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: right;
+  gap: 10px;
+}
+
+.technology-icons img {
+  width: 50px;
+  height: 50px; 
+  position: relative;
+}
+
+.technology-icons img[data-tooltip]:hover::before {
+  content: attr(data-tooltip);
+  position: absolute;
+  background: #333;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  white-space: nowrap;
+  transform: translateY(-150%);
+  z-index: 10;
+  font-size: 0.8em;
+}
+
+h1 {
+  font-size: 1.5em;
+  color: $light-text-color;
+  margin: 0;
+}
+
+h2 {
+  font-size: 1.7em;
+  color: $dark-text-color;
+  margin-bottom: 0;
+}
+
+h3 {
+  font-size: 1.3em;
+  color: $dark-text-color;
+  margin-top: 0;
+}

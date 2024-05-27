@@ -2,7 +2,7 @@
   "name": "Matthew Evans",
   "title": "Full Stack Software Engineer",
   "imageUrl": "https://avatars.githubusercontent.com/u/30472441?v=4",
-  "careerObjective": "Results-driven Software Engineer with 8+ years of experience in enterprise safety-critical software development across diverse sectors including Healthcare, Military, Government, Aviation, and Education. Skilled in full-stack development with expertise in C#/.NET, SQL Server, Angular, TypeScript and web services APIs. Seeking to leverage expertise in software development, microservices architecture, and agile methodologies to tackle challenging projects in the U.S. tech industry.",
+  "careerObjective": "Results-driven Software Engineer with 8+ years of experience in enterprise safety-critical software development across diverse sectors including Healthcare, Military, Government, Aviation, and Education.",
   "workExperience": [
     {
       "title": "Full Stack Software Engineer / Team Lead",
@@ -30,9 +30,11 @@
         "Bootstrap",
         "CSS",
         "TeamCity",
-        "Octopus Deploy",
+        "Octopus",
         "SQL",
-        "Microsoft SQL Server"
+        "Microsoft SQL Server",
+        ".NET Core",
+        "xUnit"
       ]
     },
     {
@@ -56,17 +58,19 @@
       ],
       "technologies": [
         "C#",
-        "ASP.NET Core",
+        ".NET Core",
         "SOAP",
         "RESTful API",
         "Azure DevOps",
         "Selenium",
         "xUnit",
         "Postman",
-        "SoapUI",
         "Docker",
         "Linux",
-        "SQL"
+        "SQL",
+        "Power BI",
+        "Dynamics 365",
+        "Microsoft Entra ID"
       ]
     },
     {
@@ -87,7 +91,10 @@
         "Selenium",
         "Ranorex",
         "NUnit",
-        "SQL"
+        "SQL",
+        "Microsoft SQL Server",
+        "C#",
+        "Postman"
       ]
     },
     {
@@ -103,7 +110,14 @@
         "Worked with application operations to deploy and maintain software applications in production environments.",
         "Participated in cross-functional team meetings and contributed to continuous improvement initiatives."
       ],
-      "technologies": []
+      "technologies": [
+        "Microsoft Test Manager",
+        "Microsoft SQL Server",
+        "Landesk",
+        "Active Directory",
+        "C#",
+        "Microsoft SQL Server"
+      ]
     }
   ],
   "educationAndQualifications": [
@@ -113,8 +127,29 @@
       "institution": "Open University",
       "startDate": "2015",
       "endDate": "2021",
-      "grade": "4.0",
-      "technologies": ["C#", "SQL", "JavaScript", "Angular", "Bootstrap", "CSS", "TeamCity", "Octopus Deploy", "Microsoft SQL Server"]
+      "grade": "GPA 4.0",
+      "activities": [
+        "Created an entertainment finding website utilizing API endpoints to guide users to content across platforms like Netflix, Disney+, and others.",
+        "Developed a mobile application for both Android and iOS platforms, facilitating ride-sharing services with user-friendly interfaces, real-time matching, and ratings and reviews.", 
+        "Crafted a cloud-based e-commerce website enabling users to book meeting rooms and rent equipment seamlessly.",
+        "Designed a Jupyter notebook capable of analyzing and visualizing current trends in environmental factors and economic growth.",
+       "Crafted a Java-based application for maintaining comprehensive records of frogs in ponds, including their names and current feeding schedules.",
+      "Led and assisted a team project focused on intricate data algorithms and advanced mathematical concepts."],
+      "technologies": [
+        { "name": "C#", "iconUrl": "../../assets/Images/Skills/c-sharp.svg" },
+        { "name": "SQL", "iconUrl": "../../assets/Images/Skills/mysql.svg" },
+        { "name": "Javascript", "iconUrl": "../../assets/Images/Skills/javascript.svg" },
+        { "name": "Git", "iconUrl":"../../assets/Images/Skills/git.svg"},
+        { "name": "noSQL", "iconUrl": "../../assets/Images/Skills/mongodb.svg" },
+        { "name": "Python", "iconUrl": "../../assets/Images/Skills/python.svg" },
+        { "name": "Java", "iconUrl": "../../assets/Images/Skills/java.svg" },
+        { "name": "Cordova", "iconUrl": "../../assets/Images/Skills/cordova.svg" },
+        { "name": "jupyter notebook", "iconUrl": "../../assets/Images/Skills/jupyter.svg" },
+        { "name": "Google cloud", "iconUrl": "../../assets/Images/Skills/google-cloud.svg" },
+        { "name": "oneNote", "iconUrl": "../../assets/Images/Skills/onenote.svg"}
+
+
+      ]
     },
     {
       "level": "Foundation Level Certified",
@@ -123,7 +158,13 @@
       "startDate": "2018",
       "endDate": "2018",
       "grade": "Pass",
-      "technologies": ["Tescase", "Testplan", "Testreport"]
+      "activities": [
+        "Provided a foundational understanding of software testing principles, processes, and techniques.", 
+        "Covered various testing levels (e.g., unit testing, integration testing) and types (e.g., functional testing, non-functional testing).", 
+        "Included topics such as test management, test tools, and test automation."
+      ],
+      "technologies": [
+      ]
     },
     {
       "level": "BSc",
@@ -131,8 +172,22 @@
       "institution": "University of Nottingham",
       "startDate": "2012",
       "endDate": "2014",
-      "grade": "4.0",
-      "technologies": ["C#", "SQL", "JavaScript", "Angular", "Bootstrap", "CSS", "TeamCity", "Octopus Deploy", "Microsoft SQL Server"]
+      "grade": "GPA 4.0",
+      "activities": ["Collaborated within a team to develop a Japanese learning application featuring handwriting recognition capabilities.", 
+      "Developed a Python multiplayer game integrating a high score system for competitive gaming experiences.", 
+      "Developed a visual airport representation tool in Java, offering detailed flight information and real-time positioning for improved navigation and monitoring.",
+    "Engineered a neural network AI capable of playing chess, checkers, and Tower of Hanoi, demonstrating versatile problem-solving abilities across diverse gaming domains."],
+      "technologies": [
+        { "name": "Java", "iconUrl": "../../assets/Images/Skills/java.svg" },
+        { "name": "Python", "iconUrl": "../../assets/Images/Skills/python.svg" },
+        { "name": "C++", "iconUrl": "../../assets/Images/Skills/cpp.svg" },
+        { "name": "Haskell", "iconUrl": "../../assets/Images/Skills/haskell.svg" },
+        { "name": "SQL", "iconUrl": "../../assets/Images/Skills/mysql.svg" },
+        { "name": "Git", "iconUrl":"../../assets/Images/Skills/git.svg"},
+        { "name": "SVN", "iconUrl": "../../assets/Images/Skills/svn.svg" },
+        { "name": "Javascript", "iconUrl": "../../assets/Images/Skills/javascript.svg" },
+        { "name": "Unix", "iconUrl": "../../assets/Images/Skills/linux.svg" }
+      ]
     },
     {
       "level": "BTEC National Diploma Level 3",
@@ -140,8 +195,21 @@
       "institution": "Derby College",
       "startDate": "2010",
       "endDate": "2012",
-      "grade": "4.0",
-      "technologies": ["C#", "SQL", "JavaScript", "Angular", "Bootstrap", "CSS", "TeamCity", "Octopus Deploy", "Microsoft SQL Server"]
+      "grade": "GPA 4.0",
+      "activities": [
+        "Developed a scientific calculator utilizing both C++ for backend functionality and Visual Basic (VB) for the user interface, showcasing proficiency in multiple programming languages and integration techniques.", 
+        "Designed a restaurant website with separate admin functionality and online booking support, providing seamless management and enhanced user experience for both customers and staff.",
+         "Developed a Java-based system optimized for PDA devices and touchscreens in restaurant settings, enabling servers to efficiently place orders and seamlessly transmit them to the kitchen for streamlined service."],
+      "technologies": [
+        { "name": "C#", "iconUrl": "../../assets/Images/Skills/c-sharp.svg" },
+        { "name": "SQL", "iconUrl": "../../assets/Images/Skills/mysql.svg" },
+        { "name": "Java", "iconUrl": "../../assets/Images/Skills/java.svg" },
+        { "name": "C++", "iconUrl": "../../assets/Images/Skills/cpp.svg" },
+        { "name": "Javascript", "iconUrl": "../../assets/Images/Skills/javascript.svg" },
+        { "name": "PHP", "iconUrl": "../../assets/Images/Skills/php.svg" },
+        { "name": "CSS", "iconUrl": "../../assets/Images/Skills/css.svg" },
+        { "name": "HTML", "iconUrl": "../../assets/Images/Skills/html.svg" }
+      ]
     }
   ],
   "skills": [
@@ -171,46 +239,43 @@
     },
     {
       "skillTitle": "Angular",
-      "skillScore": "0",
+      "skillScore": "150",
       "skillIconUrl": "../../assets/Images/Skills/angular.svg",
-      "verifiedDate": "2024-01-01"
+      "verifiedDate": "2024-04-02"
     },
-    {
-      "skillTitle": ".NET Core",
-      "skillScore": "0",
-      "skillIconUrl": "path/to/cloud/icon.png",
-      "verifiedDate": "2024-01-01"
-    },
-    {
-      "skillTitle": "Javascript",
-      "skillScore": "0",
-      "skillIconUrl": "../../assets/Images/Skills/javascript.svg",
-      "verifiedDate": "2024-01-01"
-    },
-    {
-      "skillTitle": ".Net MAUI",
-      "skillScore": "0",
-      "skillIconUrl": "path/to/documentation/icon.png",
-      "verifiedDate": "2024-01-01"
-    },    {
+     {
       "skillTitle": "TypeScript",
-      "skillScore": "0",
+      "skillScore": "155",
       "skillIconUrl": "../../assets/Images/Skills/typescript.svg",
-      "verifiedDate": "2024-01-01"
+      "verifiedDate": "2024-04-01"
     }
   ],
   "projects": [
     {
-      "title": "AI-Driven Chatbot",
-      "description": "Developed an AI-driven chatbot using Python and TensorFlow, capable of handling customer inquiries and providing real-time support.",
-      "demoUrl": "http://example.com/demo/ai-chatbot",
-      "codeUrl": "http://github.com/mattie/ai-chatbot",
-      "imageUrl": "../../assets/Images/Backgrounds/background.jpg",
+      "title": "Portfolio Website",
+      "description": "Easy to use and customizable portfolio website template. Built with native Css, JavaScript, and HTML. No frameworks or libraries used.",
+      "demoUrl": "https://m29992.github.io/basic-portfolio-template/",
+      "codeUrl": "http://github.com/mattie/portfolio-template",
+      "imageUrl": "../../assets/Images/Projects/mattieio.png",
       "technologies": [
-        "Python",
-        "TensorFlow",
-        "NLP",
-        "REST API"
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ]
+    },
+    {
+      "title": "Wedding site",
+      "description": "Custom-built wedding website with all relevant wedding details: event info, schedule, RSVP, travel tips, and registry links.",
+      "demoUrl": "http://mattie.io/wedding",
+      "codeUrl": "https://github.com/M29992/wedding",
+      "imageUrl": "../../assets/Images/Projects/wedding.png",
+      "technologies": [
+        "Angular",
+        "JavaScript",
+        "CSS",
+        "HTML",
+        "Uber API",
+        "Microsoft forms"
       ]
     },
     {
@@ -218,25 +283,12 @@
       "description": "Built a scalable e-commerce platform with ASP.NET Core and Angular, featuring user authentication, product management, and payment integration.",
       "demoUrl": "http://example.com/demo/ecommerce-platform",
       "codeUrl": "http://github.com/mattie/ecommerce-platform",
-      "imageUrl": "../../assets/Images/Backgrounds/background.jpg",
+      "imageUrl": "../../assets/Images/Projects/comingSoon.png",
       "technologies": [
         "ASP.NET Core",
         "Angular",
         "SQL Server",
         "Stripe API"
-      ]
-    },
-    {
-      "title": "Weather Forecast App",
-      "description": "Created a weather forecast app using React and OpenWeather API, providing real-time weather updates and forecasts.",
-      "demoUrl": "http://example.com/demo/weather-forecast",
-      "codeUrl": "http://github.com/mattie/weather-forecast",
-      "imageUrl": "../../assets/Images/Backgrounds/background.jpg",
-      "technologies": [
-        "React",
-        "OpenWeather API",
-        "JavaScript",
-        "CSS"
       ]
     }
   ]
